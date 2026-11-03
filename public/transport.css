@@ -1,0 +1,20 @@
+
+/* Kyoto transport assistant v1: independent from the map tile service */
+.traffic-assistant{margin-top:20px;padding:17px;border:1px solid #d7ded4;border-radius:12px;background:#f8faf5;color:#26322f}
+.traffic-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+.traffic-head h3{margin:0;font-size:17px;letter-spacing:.02em}
+.traffic-kicker{font-size:11px;color:#607369}
+.traffic-description{font-size:12px;color:#5f7068;line-height:1.6;margin:5px 0 13px}
+.traffic-form{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:11px}
+.traffic-field{display:flex;flex-direction:column;gap:4px;font-size:12px;color:#4a5b51}
+.traffic-field select,.traffic-field input{min-width:0;width:100%;padding:9px 10px;border-radius:7px;border:1px solid #cad3c9;background:#fff;color:#253b30;font-size:13px}
+.traffic-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.traffic-links a,.traffic-links button{display:inline-flex;align-items:center;justify-content:center;gap:4px;border:1px solid #c5d0c5;padding:9px 11px;border-radius:7px;color:#253b30;text-decoration:none;background:#fff;font-size:12px;line-height:1.4;cursor:pointer}
+.traffic-links .traffic-primary{background:#304e40;color:#fff;border-color:#304e40;font-weight:600}
+.traffic-divider{border:0;border-top:1px solid #dce2d8;margin:15px 0 12px}
+.traffic-status{font-size:12px;line-height:1.7;color:#4e6358;margin-top:10px;padding:10px 11px;border-radius:6px;background:#e9efe8}
+.traffic-reminder{font-size:12px;line-height:1.75;color:#4d6154;margin-top:10px}
+.traffic-note{font-size:11px;line-height:1.7;color:#697970;margin-top:10px}
+.traffic-jump{font-size:12px;border:1px solid #b0c1b7;background:#f2f6f1;border-radius:30px;padding:7px 12px;white-space:nowrap;color:#304e40}
+.traffic-mobile-card-link{background:#edf3e9!important;border-color:#bbd0bf!important;color:#294c37!important}
+@media(max-width:500px){.traffic-assistant{padding:14px}.traffic-form{grid-template-columns:1fr}.traffic-links a,.traffic-links button{flex:1 0 45%;min-height:42px}.traffic-description{font-size:12px}}
