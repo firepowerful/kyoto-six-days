@@ -1,0 +1,6 @@
+{
+  "site": "kyoto-six-days",
+  "kanazawa_path": "/kanazawa/",
+  "version": "two-trip-routing-v1",
+  "notes": "Version marker to identify latest static assets deployment"
+}
