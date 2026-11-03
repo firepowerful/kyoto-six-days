@@ -1,6 +1,6 @@
 {
   "site": "kyoto-six-days",
   "kanazawa_path": "/kanazawa/",
-  "version": "two-trip-routing-v1",
-  "notes": "Version marker to identify latest static assets deployment"
+  "version": "two-trip-routing-v2",
+  "notes": "Includes Kyoto home, Kanazawa Toyama six-day route, transport assistant and explicit nested asset routing."
 }
